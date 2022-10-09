@@ -1,0 +1,56 @@
+{
+  "code-runner.runInTerminal": true,
+  "workbench.colorTheme": "Dracula",
+  "editor.fontWeight": null,
+  "editor.fontFamily": "\"JetBrains Mono\",onsolas, 'Courier New', monospace",
+  "C_Cpp.intelliSenseEngineFallback": "Enabled",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#40573a",
+    "activityBar.foreground": "#b6ffa8",
+    "activityBar.inactiveForeground": "#fff",
+    "activityBar.activeBackground": "#40573a",
+    "sideBar.background": "#30303000",
+    "sideBarTitle.foreground": "#b6ffa8"
+  },
+  "C_Cpp.updateChannel": "Insiders",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.confirmDelete": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "workbench.startupEditor": "none",
+  "redhat.telemetry.enabled": false,
+  "C_Cpp.errorSquiggles": "EnabledIfIncludesResolve",
+  "bracketPairColorizer.depreciation-notice": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.codeActionsOnSave": {},
+  "editor.fontSize": 17,
+  "files.autoSave": "afterDelay",
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false,
+    "c": true
+  }
+}
