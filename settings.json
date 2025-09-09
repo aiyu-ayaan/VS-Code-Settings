@@ -1,8 +1,8 @@
 {
   "code-runner.runInTerminal": true,
-  "workbench.colorTheme": "Dracula",
+  "workbench.colorTheme": "Dracula Theme",
   "editor.fontWeight": null,
-  "editor.fontFamily": "\"JetBrains Mono\",onsolas, 'Courier New', monospace",
+  "editor.fontFamily": "Geist Mono, JetBrains Mono, Fira Code",
   "C_Cpp.intelliSenseEngineFallback": "Enabled",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
@@ -19,14 +19,13 @@
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "liveServer.settings.donotShowInfoMsg": true,
   "explorer.confirmDelete": false,
-  "workbench.iconTheme": "material-icon-theme",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "files.exclude": {
@@ -44,13 +43,132 @@
   "explorer.confirmDragAndDrop": false,
   "editor.inlineSuggest.enabled": true,
   "editor.codeActionsOnSave": {},
-  "editor.fontSize": 17,
-  "files.autoSave": "afterDelay",
   "github.copilot.enable": {
     "*": true,
-    "yaml": false,
     "plaintext": false,
-    "markdown": false,
-    "c": true
+    "markdown": true,
+    "scminput": false,
+    "yaml": false,
+    "c": true,
+    "csharp": false,
+    "php": true
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "git.autofetch": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "emulator.emulatorPathWindows": "D:\\AndroidWorkSpace\\sdk\\emulator",
+  "kotlin.languageServer.enabled": false,
+  "kotlin.debugAdapter.enabled": false,
+  "editor.fontSize": 18,
+  "terminal.integrated.profiles.linux": {
+    "starship": {
+      "path": "zsh",
+      "icon": "terminal",
+      "colors": {
+        "background": "#000000",
+        "foreground": "#ffffff"
+      }
+    }
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  "explorer.confirmPasteNative": false,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "debug.disassemblyView.showSourceCode": false,
+  "code-runner.executorMapByGlob": {
+    "pom.xml": "cd $dir && mvn clean package",
+    "*.l": "flex $fileName && gcc lex.yy.c -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+  },
+  "files.autoSave": "afterDelay",
+  "rubyLsp.rubyExecutablePath": "d:\\Learn\\Ruby\\start.rb",
+  "[erb]": {
+    "editor.defaultFormatter": "aliariff.vscode-erb-beautify",
+    "editor.formatOnSave": true
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "todohighlight.keywords": [
+    {
+      "text": "WORKING:",
+      "color": "#1A1A1A",             // Dark gray text
+      "backgroundColor": "#87CEFA"    // Sky Blue background
+    },
+    {
+      "text": "DONE:",
+      "color": "#FFFFFF",             // White text
+      "backgroundColor": "#2ECC71"    // Bright green background
+    },
+    {
+      "text": "DESCRIPTION:",
+      "color": "#1F1F1F",             // Dark text
+      "backgroundColor": "#FFD580" ,   // Light orange background for descriptions,
+   
+    },
+    {
+      "text":"END:",
+      "color": "#000000",             // Black text
+      "backgroundColor": "#FF6347"    // Tomato background for end markers
+    },
+    {
+      "text":"START:",
+      "color": "#000000",             // Black text
+      "backgroundColor": "#FF4500"    // OrangeRed background for start markers
+    },
+    {
+      "text":"REMOVEME:"
+      ,"color": "#000000",             // Black text
+      "backgroundColor": "#FF0000"    // Red background for remove me markers
+    },
+    {
+      "text": "CREAIYU:",
+      "color": "#000000",             // Black text
+      "backgroundColor": "#FF6F61"    // Yellow background for notes
+    }
+  ],
+  "chat.instructionsFilesLocations": {
+    ".github/instructions": true,
+    "C:\\Users\\AYAANA~1\\AppData\\Local\\Temp\\postman-http-request-post-response.instructions.md": true,
+    "C:\\Users\\AYAANA~1\\AppData\\Local\\Temp\\postman-http-request-pre-request.instructions.md": true,
+    "C:\\Users\\ayaan\\AppData\\Local\\Temp\\postman-http-request-post-response.instructions.md": true,
+    "C:\\Users\\ayaan\\AppData\\Local\\Temp\\postman-http-request-pre-request.instructions.md": true,
+    "C:\\Users\\AYAANA~1\\AppData\\Local\\Temp\\postman-collections-post-response.instructions.md": true,
+    "C:\\Users\\AYAANA~1\\AppData\\Local\\Temp\\postman-collections-pre-request.instructions.md": true,
+    "C:\\Users\\AYAANA~1\\AppData\\Local\\Temp\\postman-folder-post-response.instructions.md": true,
+    "C:\\Users\\AYAANA~1\\AppData\\Local\\Temp\\postman-folder-pre-request.instructions.md": true,
+    "C:\\Users\\ayaan\\AppData\\Local\\Temp\\postman-collections-post-response.instructions.md": true,
+    "C:\\Users\\ayaan\\AppData\\Local\\Temp\\postman-collections-pre-request.instructions.md": true,
+    "C:\\Users\\ayaan\\AppData\\Local\\Temp\\postman-folder-post-response.instructions.md": true,
+    "C:\\Users\\ayaan\\AppData\\Local\\Temp\\postman-folder-pre-request.instructions.md": true
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "php.problems.exclude": {
+    "**/*": [
+      "PHP0417"
+    ]
+  },
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "remote.SSH.remotePlatform": {
+    "139.59.24.34": "linux"
   }
 }
