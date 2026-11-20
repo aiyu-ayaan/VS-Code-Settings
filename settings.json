@@ -1,174 +1,406 @@
 {
-  "code-runner.runInTerminal": true,
-  "workbench.colorTheme": "Dracula Theme",
-  "editor.fontWeight": null,
-  "editor.fontFamily": "Geist Mono, JetBrains Mono, Fira Code",
-  "C_Cpp.intelliSenseEngineFallback": "Enabled",
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "workbench.colorCustomizations": {
-    "activityBar.background": "#40573a",
-    "activityBar.foreground": "#b6ffa8",
-    "activityBar.inactiveForeground": "#fff",
-    "activityBar.activeBackground": "#40573a",
-    "sideBar.background": "#30303000",
-    "sideBarTitle.foreground": "#b6ffa8"
-  },
-  "C_Cpp.updateChannel": "Insiders",
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "liveServer.settings.donotShowInfoMsg": true,
-  "explorer.confirmDelete": false,
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "files.exclude": {
-    "**/.classpath": true,
-    "**/.project": true,
-    "**/.settings": true,
-    "**/.factorypath": true
-  },
-  "workbench.startupEditor": "none",
-  "redhat.telemetry.enabled": false,
-  "C_Cpp.errorSquiggles": "EnabledIfIncludesResolve",
-  "bracketPairColorizer.depreciation-notice": false,
-  "security.workspace.trust.untrustedFiles": "open",
-  "terminal.integrated.enableMultiLinePasteWarning": false,
-  "explorer.confirmDragAndDrop": false,
-  "editor.inlineSuggest.enabled": true,
-  "editor.codeActionsOnSave": {},
-  "github.copilot.enable": {
-    "*": true,
-    "plaintext": false,
-    "markdown": true,
-    "scminput": false,
-    "yaml": false,
-    "c": true,
-    "csharp": false,
-    "php": true
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "git.autofetch": true,
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.iconTheme": "material-icon-theme",
-  "[dart]": {
+    "code-runner.runInTerminal": true,
+    "editor.fontWeight": null,
+    "editor.fontFamily": "'JetBrains Mono', 'FiraCode Nerd Font', monospace",
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "window.titleBarStyle": "custom",
+    "window.menuBarVisibility": "compact",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.guides.highlightActiveIndentation": true,
+    "editor.inlayHints.enabled": "on",
+    "editor.renderLineHighlight": "line",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "editor.lineHeight": 1.6,
+    "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
-    "editor.formatOnType": true,
-    "editor.rulers": [80],
-    "editor.selectionHighlight": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "explorer.confirmDelete": false,
     "editor.suggestSelection": "first",
-    "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": "off"
-  },
-  "emulator.emulatorPathWindows": "D:\\AndroidWorkSpace\\sdk\\emulator",
-  "kotlin.languageServer.enabled": false,
-  "kotlin.debugAdapter.enabled": false,
-  "editor.fontSize": 18,
-  "terminal.integrated.profiles.linux": {
-    "starship": {
-      "path": "zsh",
-      "icon": "terminal",
-      "colors": {
-        "background": "#000000",
-        "foreground": "#ffffff"
-      }
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "workbench.startupEditor": "none",
+    "redhat.telemetry.enabled": false,
+    "C_Cpp.errorSquiggles": "EnabledIfIncludesResolve",
+    "bracketPairColorizer.depreciation-notice": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.inlineSuggest.enabled": true,
+    "editor.codeActionsOnSave": {},
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "scminput": false,
+        "c": true,
+        "csharp": true,
+        "php": true,
+        "markdown": true
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "git.autofetch": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "emulator.emulatorPathWindows": "D:\\AndroidWorkSpace\\sdk\\emulator",
+    "kotlin.languageServer.enabled": false,
+    "kotlin.debugAdapter.enabled": false,
+    "editor.fontSize": 18,
+    "terminal.integrated.profiles.linux": {
+        "starship": {
+            "path": "zsh",
+            "icon": "terminal",
+            "colors": {
+                "background": "#000000",
+                "foreground": "#ffffff"
+            }
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "starship",
+    "github.copilot.editor.enableAutoCompletions": true,
+    "explorer.confirmPasteNative": false,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "debug.disassemblyView.showSourceCode": false,
+    "code-runner.executorMapByGlob": {
+        "pom.xml": "cd $dir && mvn clean package",
+        "*.l": "flex $fileName && gcc lex.yy.c -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+    },
+    "rubyLsp.rubyExecutablePath": "d:\\Learn\\Ruby\\start.rb",
+    "[erb]": {
+        "editor.defaultFormatter": "aliariff.vscode-erb-beautify",
+        "editor.formatOnSave": true
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "todohighlight.keywords": [
+        {
+            "text": "WORKING:",
+            "color": "#1A1A1A", // Dark gray text
+            "backgroundColor": "#87CEFA" // Sky Blue background
+        },
+        {
+            "text": "DONE:",
+            "color": "#FFFFFF", // White text
+            "backgroundColor": "#2ECC71" // Bright green background
+        },
+        {
+            "text": "DESCRIPTION:",
+            "color": "#1F1F1F", // Dark text
+            "backgroundColor": "#FFD580", // Light orange background for descriptions,
+        },
+        {
+            "text": "END:",
+            "color": "#000000", // Black text
+            "backgroundColor": "#FF6347" // Tomato background for end markers
+        },
+        {
+            "text": "START:",
+            "color": "#000000", // Black text
+            "backgroundColor": "#FF4500" // OrangeRed background for start markers
+        },
+        {
+            "text": "REMOVEME:",
+            "color": "#000000", // Black text
+            "backgroundColor": "#FF0000" // Red background for remove me markers
+        },
+        {
+            "text": "CREAIYU:",
+            "color": "#000000", // Black text
+            "backgroundColor": "#FF6F61" // Yellow background for notes
+        }
+    ],
+    "chat.instructionsFilesLocations": {
+        ".github/instructions": true,
+        ".claude/rules": true,
+        "~/.copilot/instructions": true,
+        "~/.claude/rules": true,
+        "C:\\Users\\AYAANA~1\\AppData\\Local\\Temp\\postman-http-request-post-response.instructions.md": true,
+        "C:\\Users\\AYAANA~1\\AppData\\Local\\Temp\\postman-http-request-pre-request.instructions.md": true,
+        "C:\\Users\\ayaan\\AppData\\Local\\Temp\\postman-http-request-post-response.instructions.md": true,
+        "C:\\Users\\ayaan\\AppData\\Local\\Temp\\postman-http-request-pre-request.instructions.md": true,
+        "C:\\Users\\AYAANA~1\\AppData\\Local\\Temp\\postman-collections-post-response.instructions.md": true,
+        "C:\\Users\\AYAANA~1\\AppData\\Local\\Temp\\postman-collections-pre-request.instructions.md": true,
+        "C:\\Users\\AYAANA~1\\AppData\\Local\\Temp\\postman-folder-post-response.instructions.md": true,
+        "C:\\Users\\AYAANA~1\\AppData\\Local\\Temp\\postman-folder-pre-request.instructions.md": true,
+        "C:\\Users\\ayaan\\AppData\\Local\\Temp\\postman-collections-post-response.instructions.md": true,
+        "C:\\Users\\ayaan\\AppData\\Local\\Temp\\postman-collections-pre-request.instructions.md": true,
+        "C:\\Users\\ayaan\\AppData\\Local\\Temp\\postman-folder-post-response.instructions.md": true,
+        "C:\\Users\\ayaan\\AppData\\Local\\Temp\\postman-folder-pre-request.instructions.md": true
+    },
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "php.problems.exclude": {
+        "**/*": [
+            "PHP0417"
+        ]
+    },
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "remote.SSH.remotePlatform": {
+        "139.59.24.34": "linux"
+    },
+    "postman.mcp.notifications.postmanMCP": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "todohighlight.isEnable": false,
+    "githubPullRequests.pullBranch": "never",
+    "docker.extension.dockerEngineAvailabilityPrompt": false,
+    "chat.agent.maxRequests": 100,
+    "accessibility.signals.lineHasBreakpoint": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.chatEditModifiedFile": {
+        "sound": "off"
+    },
+    "accessibility.signals.chatRequestSent": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.chatResponseReceived": {
+        "sound": "off"
+    },
+    "accessibility.signals.chatUserActionRequired": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.clear": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.codeActionApplied": {
+        "sound": "off"
+    },
+    "accessibility.signals.codeActionTriggered": {
+        "sound": "off"
+    },
+    "accessibility.signals.onDebugBreak": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.diffLineDeleted": {
+        "sound": "off"
+    },
+    "accessibility.signals.diffLineInserted": {
+        "sound": "off"
+    },
+    "accessibility.signals.diffLineModified": {
+        "sound": "off"
+    },
+    "accessibility.signals.editsKept": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.positionHasError": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.lineHasError": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.lineHasFoldedArea": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.lineHasInlineSuggestion": {
+        "sound": "off"
+    },
+    "accessibility.signals.nextEditSuggestion": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.noInlayHints": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.notebookCellCompleted": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.notebookCellFailed": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.progress": {
+        "sound": "off",
+        "announcement": "off"
+    },
+    "accessibility.signals.taskCompleted": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.taskFailed": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.terminalBell": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.terminalCommandFailed": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.terminalCommandSucceeded": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.terminalQuickFix": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.editsUndone": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.voiceRecordingStarted": {
+        "sound": "off"
+    },
+    "accessibility.signals.voiceRecordingStopped": {
+        "sound": "off"
+    },
+    "accessibility.signals.positionHasWarning": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "accessibility.signals.lineHasWarning": {
+        "sound": "off",
+        "announcement": "auto"
+    },
+    "remote.portsAttributes": {
+        "5173": {
+            "protocol": "http"
+        }
+    },
+    "chat.tools.global.autoApprove": true,
+    "githubLocalActions.dockerDesktopPath": "C:/Program Files/Docker/Docker/Docker Desktop.exe",
+    "githubPullRequests.createOnPublishBranch": "never",
+    "terminal.integrated.initialHint": false,
+    "workbench.browser.openLocalhostLinks": false,
+    "chat.viewSessions.orientation": "stacked",
+    "editor.accessibilitySupport": "off",
+    "terminal.external.windowsExec": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+    "powershell.integratedConsole.forceClearScrollbackBuffer": true,
+    "go.toolsManagement.autoUpdate": true,
+    "git.openRepositoryInParentFolders": "never",
+    "yaml.disableSchemaDetection": [
+        "**/.github/workflows/*.yml",
+        "**/.github/workflows/*.yaml",
+        "**/.gitea/workflows/*.yml",
+        "**/.gitea/workflows/*.yaml",
+        "**/.forgejo/workflows/*.yml",
+        "**/.forgejo/workflows/*.yaml"
+    ],
+    "git.replaceTagsWhenPull": true,
+    "editor.quickSuggestions": {
+        "other": "offWhenInlineCompletions",
+        "comments": "off",
+        "strings": "off"
+    },
+    "files.autoSave": "afterDelay",
+    "claudeCode.preferredLocation": "panel",
+    "claudeCode.hideOnboarding": true,
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.md": "vscode.markdown.preview.editor"
+    },
+    // ===== Fleet look: frame + layout =====
+    "window.title": "${rootName}${separator}${activeEditorShort}${dirty}",
+    "window.commandCenter": true,
+    "window.density.editorTabHeight": "compact",
+    "workbench.activityBar.location": "default",
+    "workbench.sideBar.location": "right",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "workbench.layoutControl.enabled": false,
+    "workbench.view.alwaysShowHeaderActions": false,
+    "workbench.tree.indent": 14,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.editor.tabActionLocation": "right",
+    "workbench.editor.tabActionCloseVisibility": true,
+    "workbench.editor.decorations.badges": false,
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.list.smoothScrolling": true,
+    "material-icon-theme.saturation": 0.75,
+    "material-icon-theme.opacity": 0.9,
+    "chat.commandCenter.enabled": false,
+    "breadcrumbs.enabled": false,
+    // ===== Fleet look: editor =====
+    "editor.minimap.enabled": true,
+    "editor.minimap.autohide": "mouseover",
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.showSlider": "always",
+    "editor.padding.top": 12,
+    "editor.padding.bottom": 12,
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.scrollbar.verticalScrollbarSize": 8,
+    "editor.scrollbar.horizontalScrollbarSize": 8,
+    "editor.scrollbar.useShadows": false,
+    "editor.showFoldingControls": "mouseover",
+    "editor.stickyScroll.enabled": true,
+    "editor.smoothScrolling": true,
+    "editor.letterSpacing": 0.2,
+    "editor.fontLigatures": "'calt', 'zero', 'ss19'",
+    "editor.renderWhitespace": "none",
+    "editor.occurrencesHighlight": "singleFile",
+    "terminal.integrated.fontFamily": "'JetBrains Mono', 'FiraCode Nerd Font'",
+    "terminal.integrated.lineHeight": 1.3,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.tabs.enabled": true,
+    // ===== Startup speed / less noise =====
+    "workbench.tips.enabled": false,
+    "workbench.welcomePage.walkthroughs.openOnInstall": false,
+    "workbench.enableExperiments": false,
+    "telemetry.telemetryLevel": "off",
+    "extensions.ignoreRecommendations": true,
+    "npm.autoDetect": "off",
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/.venv/**": true,
+        "**/.gradle/**": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/dist": true,
+        "**/build": true,
+        "**/.venv": true
     }
-  },
-  "github.copilot.editor.enableAutoCompletions": true,
-  "explorer.confirmPasteNative": false,
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "debug.disassemblyView.showSourceCode": false,
-  "code-runner.executorMapByGlob": {
-    "pom.xml": "cd $dir && mvn clean package",
-    "*.l": "flex $fileName && gcc lex.yy.c -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
-  },
-  "files.autoSave": "afterDelay",
-  "rubyLsp.rubyExecutablePath": "d:\\Learn\\Ruby\\start.rb",
-  "[erb]": {
-    "editor.defaultFormatter": "aliariff.vscode-erb-beautify",
-    "editor.formatOnSave": true
-  },
-  "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
-  },
-  "git.enableSmartCommit": true,
-  "git.confirmSync": false,
-  "todohighlight.keywords": [
-    {
-      "text": "WORKING:",
-      "color": "#1A1A1A",             // Dark gray text
-      "backgroundColor": "#87CEFA"    // Sky Blue background
-    },
-    {
-      "text": "DONE:",
-      "color": "#FFFFFF",             // White text
-      "backgroundColor": "#2ECC71"    // Bright green background
-    },
-    {
-      "text": "DESCRIPTION:",
-      "color": "#1F1F1F",             // Dark text
-      "backgroundColor": "#FFD580" ,   // Light orange background for descriptions,
-   
-    },
-    {
-      "text":"END:",
-      "color": "#000000",             // Black text
-      "backgroundColor": "#FF6347"    // Tomato background for end markers
-    },
-    {
-      "text":"START:",
-      "color": "#000000",             // Black text
-      "backgroundColor": "#FF4500"    // OrangeRed background for start markers
-    },
-    {
-      "text":"REMOVEME:"
-      ,"color": "#000000",             // Black text
-      "backgroundColor": "#FF0000"    // Red background for remove me markers
-    },
-    {
-      "text": "CREAIYU:",
-      "color": "#000000",             // Black text
-      "backgroundColor": "#FF6F61"    // Yellow background for notes
-    }
-  ],
-  "chat.instructionsFilesLocations": {
-    ".github/instructions": true,
-    "C:\\Users\\AYAANA~1\\AppData\\Local\\Temp\\postman-http-request-post-response.instructions.md": true,
-    "C:\\Users\\AYAANA~1\\AppData\\Local\\Temp\\postman-http-request-pre-request.instructions.md": true,
-    "C:\\Users\\ayaan\\AppData\\Local\\Temp\\postman-http-request-post-response.instructions.md": true,
-    "C:\\Users\\ayaan\\AppData\\Local\\Temp\\postman-http-request-pre-request.instructions.md": true,
-    "C:\\Users\\AYAANA~1\\AppData\\Local\\Temp\\postman-collections-post-response.instructions.md": true,
-    "C:\\Users\\AYAANA~1\\AppData\\Local\\Temp\\postman-collections-pre-request.instructions.md": true,
-    "C:\\Users\\AYAANA~1\\AppData\\Local\\Temp\\postman-folder-post-response.instructions.md": true,
-    "C:\\Users\\AYAANA~1\\AppData\\Local\\Temp\\postman-folder-pre-request.instructions.md": true,
-    "C:\\Users\\ayaan\\AppData\\Local\\Temp\\postman-collections-post-response.instructions.md": true,
-    "C:\\Users\\ayaan\\AppData\\Local\\Temp\\postman-collections-pre-request.instructions.md": true,
-    "C:\\Users\\ayaan\\AppData\\Local\\Temp\\postman-folder-post-response.instructions.md": true,
-    "C:\\Users\\ayaan\\AppData\\Local\\Temp\\postman-folder-pre-request.instructions.md": true
-  },
-  "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-  },
-  "php.problems.exclude": {
-    "**/*": [
-      "PHP0417"
-    ]
-  },
-  "github.copilot.nextEditSuggestions.enabled": false,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "remote.SSH.remotePlatform": {
-    "139.59.24.34": "linux"
-  }
 }
